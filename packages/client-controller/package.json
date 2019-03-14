@@ -1,0 +1,38 @@
+{
+  "name": "@microfront/client-controller",
+  "version": "0.0.0",
+  "description": "Controller that bootstraps a client composed of microfrontends.",
+  "keywords": [
+    "microfrontend",
+    "typescript",
+    "javascript",
+    "components"
+  ],
+  "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.github.io)",
+  "homepage": "https://github.com/microfront/microfront/tree/master/packages/client-controller#readme",
+  "license": "MIT",
+  "main": "lib/client-controller.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microfront/microfront.git"
+  },
+  "scripts": {
+    "clean": "./task clean",
+    "compile": "./task compile",
+    "test": "./task test",
+    "lint": "./task lint"
+  },
+  "bugs": {
+    "url": "https://github.com/microfront/microfront/issues"
+  }
+}

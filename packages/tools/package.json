@@ -1,0 +1,39 @@
+{
+  "name": "@microfront/tools",
+  "version": "0.0.0",
+  "description": "Tooling, code conventions, configs for QA and build scripts.",
+  "keywords": [
+    "typescript",
+    "prettier",
+    "jest"
+  ],
+  "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.github.io)",
+  "homepage": "https://github.com/microfront/microfront/tree/master/packages/tools#readme",
+  "license": "MIT",
+  "main": "lib/tools.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microfront/microfront.git"
+  },
+  "scripts": {
+    "test": "./task test"
+  },
+  "bugs": {
+    "url": "https://github.com/microfront/microfront/issues"
+  },
+  "dependencies": {
+    "@types/node": "^11.11.3",
+    "jest": "^24.5.0",
+    "typescript": "^3.3.3333"
+  }
+}

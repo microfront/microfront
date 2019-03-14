@@ -1,0 +1,35 @@
+{
+  "name": "@microfront/microfront",
+  "version": "0.0.0",
+  "description": "Bundle package that combines all individual @microfront/* packages",
+  "keywords": [
+    "microfrontend"
+  ],
+  "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.github.io)",
+  "homepage": "https://github.com/microfront/microfront/tree/master/packages/microfront#readme",
+  "license": "MIT",
+  "main": "lib/microfront.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microfront/microfront.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/microfront/microfront/issues"
+  },
+  "dependencies": {
+    "@microfront/client-controller": "0.0.0"
+  }
+}
