@@ -17,7 +17,7 @@ Not all requirements can be achieved by mere solutions in code but by enforcing 
 
 ## Principles
 
-- Microfrontends are isolated and cannot influence each other in an unplanned way
+- Microfrontends are developed in isolation and define their own interfaces that comply with their own backend and some minimal requirements of the controller
 - Microfrontends may use any SPA framework
 - Microfrontends are composable
 - application state is synchronized/shared across microfrontends
