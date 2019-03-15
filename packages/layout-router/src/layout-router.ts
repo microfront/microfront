@@ -19,7 +19,11 @@ export class LayoutRouter implements ILayoutRouter {
   }
   public async loadLayout() {
     const result = await this.client.query({
-      query: gql`hello(name: "freak")`,
+      query: gql`
+        query {
+          hello(name: "freak")
+        }
+      `,
     });
     // tslint:disable no-console
     console.log(result);
