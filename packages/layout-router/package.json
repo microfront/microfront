@@ -1,0 +1,39 @@
+{
+  "name": "@microfront/layout-router",
+  "version": "0.0.0",
+  "description": "Loads a layout definition and handles route changes and triggers (re)layout and MFC loading",
+  "keywords": [
+    "router",
+    "microfrontend",
+    "typescript",
+    "layout"
+  ],
+  "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.github.io)",
+  "homepage": "https://github.com/microfront/microfront/tree/master/packages/layout-router#readme",
+  "license": "MIT",
+  "main": "lib/layout-router.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microfront/microfront.git"
+  },
+  "scripts": {
+    "clean": "./task clean",
+    "compile": "./task compile",
+    "test": "./task test",
+    "lint": "./task lint",
+    "precommit": "./task lint-staged -c $(pwd)/lint-staged.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/microfront/microfront/issues"
+  }
+}
