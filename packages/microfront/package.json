@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "@microfront/client-controller": "^0.1.0"
-  }
+  },
+  "gitHead": "09724dfdcf81833aa2046aaf528c3d36789ce4a1"
 }

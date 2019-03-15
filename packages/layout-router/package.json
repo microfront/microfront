@@ -40,5 +40,6 @@
     "@microfront/graphql-client": "^0.1.0",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1"
-  }
+  },
+  "gitHead": "09724dfdcf81833aa2046aaf528c3d36789ce4a1"
 }
