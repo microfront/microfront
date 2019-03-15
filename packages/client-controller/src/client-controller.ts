@@ -1,8 +1,8 @@
 import { GraphqlClient, IGraphqlClient } from '@microfront/graphql-client';
 import { ILayoutRouter, LayoutRouter } from '@microfront/layout-router';
-import dotenv from 'dotenv';
+// import * as dotenv from 'dotenv';
 
-dotenv.config();
+// dotenv.config();
 
 const apiGatewayUri = process.env.API_GATEWAY_URI || 'http://localhost:4000';
 
