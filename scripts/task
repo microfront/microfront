@@ -15,8 +15,8 @@ case $CMD in
     ;;
 
   test)
-    if [ -d "./test" ]; then
-      exe "../../node_modules/.bin/jest -c $(pwd)/jest.config.js --rootDir ."
+    if [ -d "./__tests__" ]; then
+      exe "../../node_modules/.bin/jest -c $(pwd)/jest.config.js --verbose --rootDir ."
     else
       echo "No tests to run"
     fi
