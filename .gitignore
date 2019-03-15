@@ -86,3 +86,6 @@ typings/
 
 # compiled package code
 packages/*/lib
+
+# docs
+docs
