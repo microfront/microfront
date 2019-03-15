@@ -1,17 +1,16 @@
 {
-  "name": "@microfront/client-controller",
+  "name": "@microfront/graphql-client",
   "version": "0.0.0",
-  "description": "Controller that bootstraps a client composed of microfrontends.",
+  "description": "A GraphQL client wrapper that adds a thi layer for communication with webcomponents via DOM.",
   "keywords": [
+    "GraphQL",
     "microfrontend",
-    "typescript",
-    "javascript",
-    "components"
+    "microapp"
   ],
   "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.github.io)",
-  "homepage": "https://github.com/microfront/microfront/tree/master/packages/client-controller#readme",
+  "homepage": "https://github.com/microfront/microfront/tree/master/packages/graphql-client#readme",
   "license": "MIT",
-  "main": "lib/client-controller.js",
+  "main": "lib/graphql-client.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -37,7 +36,11 @@
     "url": "https://github.com/microfront/microfront/issues"
   },
   "dependencies": {
-    "@microfront/graphql-client": "0.0.0",
-    "@microfront/layout-router": "0.0.0"
+    "apollo-boost": "^0.3.1",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.7"
   }
 }

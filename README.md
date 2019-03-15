@@ -13,7 +13,7 @@ Not all requirements can be achieved by mere solutions in code but by enforcing 
 - `@microfront/layout-router` is initialized by controller and handles route changes and triggers (re)layout and MFC loading
 - `@microfront/client-controller` initializes `@microfront/layout-router` and loads MFCs (aka routed applications) in the route-regions defined in layout
 - `@microfront/client-controller` and MFCs communicate via events and payloads are formatted in GraphQL as lingua franca
-- `@microfront/apollo-client` is initialized by controller and handles GraphQL requests triggered by the events of the MFCs
+- `@microfront/graphql-client` is initialized by controller and handles GraphQL requests triggered by the events of the MFCs
 - `@microfront/auth` is initialized by controller and handles authentication and session management
 - `@microfront/ssr-controller` leverages the `@microfront/layout-router` to request and compose the data, HTML and CSS from the MFCs own respective ssr microservices
 
