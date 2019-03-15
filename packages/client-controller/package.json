@@ -30,7 +30,8 @@
     "clean": "./task clean",
     "compile": "./task compile",
     "test": "./task test",
-    "lint": "./task lint"
+    "lint": "./task lint",
+    "precommit": "./task lint-staged -c $(pwd)/lint-staged.config.js"
   },
   "bugs": {
     "url": "https://github.com/microfront/microfront/issues"

@@ -33,8 +33,12 @@
   },
   "dependencies": {
     "@types/node": "^11.11.3",
+    "@types/prettier": "^1.16.1",
     "jest": "^24.5.0",
+    "lint-staged": "^8.1.5",
     "prettier": "^1.16.4",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.3333"
   }
 }
