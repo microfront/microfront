@@ -16,7 +16,11 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "tsconfig.json",
+    "tslint.json",
+    "jest.config.js",
+    "prettier.config.js"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -25,13 +29,12 @@
     "type": "git",
     "url": "git+https://github.com/microfront/microfront.git"
   },
-  "scripts": {
-    "test": "./task test"
-  },
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/microfront/microfront/issues"
   },
   "dependencies": {
+    "@types/jest": "^24.0.11",
     "@types/node": "^11.11.3",
     "@types/prettier": "^1.16.1",
     "jest": "^24.5.0",
