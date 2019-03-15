@@ -1,6 +1,6 @@
 {
   "name": "@microfront/microfront",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bundle package that combines all individual @microfront/* packages",
   "keywords": [
     "microfrontend"
@@ -21,6 +21,6 @@
     "url": "https://github.com/microfront/microfront/issues"
   },
   "dependencies": {
-    "@microfront/client-controller": "0.0.0"
+    "@microfront/client-controller": "^0.1.0"
   }
 }

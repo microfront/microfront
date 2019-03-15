@@ -1,6 +1,6 @@
 {
   "name": "@microfront/layout-router",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Loads a layout definition and handles route changes and triggers (re)layout and MFC loading",
   "keywords": [
     "router",
@@ -37,7 +37,7 @@
     "url": "https://github.com/microfront/microfront/issues"
   },
   "dependencies": {
-    "@microfront/graphql-client": "0.0.0",
+    "@microfront/graphql-client": "^0.1.0",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1"
   }
