@@ -9,6 +9,8 @@ import Client, {
   WatchQueryOptions,
 } from 'apollo-boost';
 
+export type QueryResult<T> = ApolloQueryResult<T>;
+
 export interface IGraphqlClient
   extends Pick<ApolloClient<any>, 'query' | 'watchQuery' | 'mutate'> {}
 /**

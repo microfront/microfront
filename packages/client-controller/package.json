@@ -38,6 +38,10 @@
   },
   "dependencies": {
     "@microfront/graphql-client": "0.0.0",
-    "@microfront/layout-router": "0.0.0"
+    "@microfront/layout-router": "0.0.0",
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0"
   }
 }

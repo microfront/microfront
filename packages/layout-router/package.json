@@ -35,5 +35,10 @@
   },
   "bugs": {
     "url": "https://github.com/microfront/microfront/issues"
+  },
+  "dependencies": {
+    "@microfront/graphql-client": "0.0.0",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1"
   }
 }
