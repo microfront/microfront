@@ -23,6 +23,7 @@
     "prettier.config.js"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
@@ -44,5 +45,5 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.3333"
   },
-  "gitHead": "09724dfdcf81833aa2046aaf528c3d36789ce4a1"
+  "gitHead": "1d7625e0c2a2f0e1c116361671bfdb16e6d19649"
 }
