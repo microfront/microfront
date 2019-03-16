@@ -21,7 +21,23 @@ export class LayoutRouter implements ILayoutRouter {
     const result = await this.client.query({
       query: gql`
         query {
-          hello(name: "freak")
+          allLayouts {
+            name
+            path
+            grid {
+              id
+              regions {
+                id
+                name
+                content {
+                  id
+                  name
+                  team
+                  endpoint
+                }
+              }
+            }
+          }
         }
       `,
     });
