@@ -2,10 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "removeComments": true,
-    "noLib": false,
     "target": "es5",
     "sourceMap": true,
-    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "lib": ["es5", "es6", "es7", "es2017", "esnext.asynciterable", "dom"],
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -17,6 +16,5 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
-  },
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  }
 }
