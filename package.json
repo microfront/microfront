@@ -16,7 +16,8 @@
     "check-packages": "yarn clean && yarn compile && yarn test && yarn lint",
     "docs": "typedoc --mode modules --out ./docs --tsconfig './packages/tools/tsconfig.json' --readme './README.md' --name 'Microfront' ./packages/*/src",
     "publish-packages": "./scripts/publish",
-    "release": "cross-env HUSKY_BYPASS=true lerna publish"
+    "release": "cross-env HUSKY_BYPASS=true lerna publish",
+    "prerelease": "yarn compile && yarn docs"
   },
   "husky": {
     "hooks": {
