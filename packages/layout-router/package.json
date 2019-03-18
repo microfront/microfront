@@ -40,7 +40,11 @@
   "dependencies": {
     "@microfront/graphql-client": "^0.1.1",
     "graphql": "^14.1.1",
-    "graphql-tag": "^2.10.1"
+    "graphql-tag": "^2.10.1",
+    "page": "^1.11.4"
   },
-  "gitHead": "1d7625e0c2a2f0e1c116361671bfdb16e6d19649"
+  "gitHead": "1d7625e0c2a2f0e1c116361671bfdb16e6d19649",
+  "devDependencies": {
+    "@types/page": "^1.8.0"
+  }
 }
