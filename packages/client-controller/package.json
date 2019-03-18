@@ -1,6 +1,6 @@
 {
   "name": "@microfront/client-controller",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Controller that bootstraps a client composed of microfrontends.",
   "keywords": [
     "microfrontend",
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@microfront/graphql-client": "^0.1.1",
-    "@microfront/layout-router": "^0.1.1",
+    "@microfront/layout-router": "^0.1.2",
     "dotenv": "^7.0.0"
   },
   "devDependencies": {

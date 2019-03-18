@@ -1,6 +1,6 @@
 {
   "name": "@microfront/layout-router",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Loads a layout definition and handles route changes and triggers (re)layout and MFC loading",
   "keywords": [
     "router",
