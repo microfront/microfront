@@ -13,4 +13,7 @@ export class ClientController {
     this.graphqlClient = new GraphqlClient(apiGatewayUri);
     this.router = new LayoutRouter(this.graphqlClient);
   }
+  public init() {
+    this.router.init();
+  }
 }

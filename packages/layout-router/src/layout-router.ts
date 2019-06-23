@@ -7,6 +7,7 @@ export interface ILayout {
 }
 
 export interface ILayoutRouter {
+  init: (q?: string) => void;
   loadLayout: (q: string) => Promise<any>;
   initRouter: (layout: ILayout) => void;
   renderPageRoute: (pageDefinition: { [key: string]: any }) => void;
@@ -19,9 +20,11 @@ query {
     path
     grid {
       id
+      style
       regions {
         id
         name
+        style
         content {
           id
           name
@@ -36,10 +39,12 @@ query {
 
 export class LayoutRouter implements ILayoutRouter {
   private client: IGraphqlClient;
-  constructor(client: IGraphqlClient, queryString?: string) {
+  constructor(client: IGraphqlClient) {
     this.client = client;
+  }
+  public init(queryString?: string) {
     const query = queryString || layoutQueryString;
-    this.loadLayout(query).then(layout => this.initRouter(layout.data));
+    this.loadLayout(query).then(layout => this.initRouter(layout));
   }
   public async loadLayout(queryString: string) {
     const result = await this.client.query({
@@ -55,12 +60,12 @@ export class LayoutRouter implements ILayoutRouter {
     layout.allLayouts.forEach((pageDefinition: { [key: string]: any }) => {
       page(pageDefinition.path, () => this.renderPageRoute(pageDefinition));
     });
-    page.show('/');
+    page();
   }
   public renderPageRoute(pageDefinition: { [key: string]: any }) {
-    const pageEl = window.document.createElement('microfront-router-page');
+    const pageEl = document.createElement('microfront-router-page');
     pageEl.dataset.path = pageDefinition.path;
-    window!.document!.querySelector('body')!.innerHTML = '';
-    window!.document!.querySelector('body')!.append(pageEl);
+    document!.querySelector('#root')!.innerHTML = '';
+    document!.querySelector('#root')!.append(pageEl);
   }
 }
