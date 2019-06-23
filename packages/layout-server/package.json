@@ -1,0 +1,26 @@
+{
+  "name": "@microfront/team-layout",
+  "version": "0.1.2",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node-dev --no-notify --transpileOnly --respawn ./src",
+    "debug": "ts-node-dev --inspect-brk --no-notify --transpileOnly --respawn ./src"
+  },
+  "keywords": [],
+  "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.1.1",
+    "graphql-yoga": "^1.17.4",
+    "nexus": "^0.11.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.7",
+    "@types/node": "^11.11.3",
+    "@types/uuid": "^3.4.4",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3333"
+  }
+}
