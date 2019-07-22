@@ -7,7 +7,10 @@ Not all requirements can be achieved by mere solutions in code but by enforcing 
 
 `define MFC = Microfrontend/Component`
 
-## Features (WIP)
+ATTENTION: still very much WIP currently. No working solution yet, see project status:
+https://github.com/microfront/microfront/projects/1
+
+## Features (WIP - no working solution yet)
 
 - `@microfront/layout-router` loads a layout definition and renders the layout
 - `@microfront/layout-router` is initialized by controller and handles route changes and triggers (re)layout and MFC loading
@@ -35,6 +38,7 @@ Not all requirements can be achieved by mere solutions in code but by enforcing 
 
 - the talk about microfrontend architectures by Manfred Steyer [@manfredsteyer on gh](https://github.com/manfredsteyer) [@manfredsteyer on twitter](https://twitter.com/ManfredSteyer) at JS-Kongress in Munich 2019.
 - the talk about independent deployment of the frontend by Monica Lent [@mlent on gh](https://github.com/mlent) [@monicalent on twitter](https://twitter.com/monicalent) at JS-Kongress in Munich 2019.
+- See videos in this playlist: https://www.youtube.com/playlist?list=PL1qIp0pQfjQ1q_Hb42IBvVQNt0WVrZXrG
 
 ### The following resources helped me greatly:
 
