@@ -27,11 +27,10 @@
     "url": "git+https://github.com/microfront/microfront.git"
   },
   "scripts": {
-    "clean": "./task clean",
-    "compile": "./task compile",
-    "test": "./task test",
-    "lint": "./task lint",
-    "precommit": "./task lint-staged -c $(pwd)/lint-staged.config.js"
+    "compile": "tsc",
+    "test": "jest -c $(pwd)/jest.config.js --verbose --rootDir .",
+    "lint": "tslint -c $(pwd)/tslint.json --fix",
+    "precommit": "lint-staged -c $(pwd)/lint-staged.config.js"
   },
   "bugs": {
     "url": "https://github.com/microfront/microfront/issues"
