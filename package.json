@@ -15,7 +15,6 @@
     "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'",
     "check-packages": "yarn clean && yarn compile && yarn test && yarn lint",
     "docs": "typedoc --mode modules --out ./docs --tsconfig './packages/tools/tsconfig.json' --readme './README.md' --name 'Microfront' ./packages/*/src",
-    "publish-packages": "./scripts/publish",
     "release": "cross-env HUSKY_BYPASS=true lerna publish",
     "prerelease": "yarn compile && yarn docs"
   },
@@ -37,11 +36,10 @@
   },
   "homepage": "https://github.com/microfront/microfront#readme",
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
-    "@commitlint/config-conventional": "^7.5.0",
+
     "cross-env": "^5.2.0",
-    "husky": "^1.3.1",
-    "lerna": "^3.13.1",
-    "typedoc": "^0.14.2"
+    "husky": "^3.0.4",
+    "lerna": "^3.16.4",
+    "typedoc": "^0.15.0"
   }
 }

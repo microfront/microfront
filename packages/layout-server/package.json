@@ -1,5 +1,5 @@
 {
-  "name": "@microfront/team-layout",
+  "name": "@microfront/layout-server",
   "version": "0.1.2",
   "description": "",
   "main": "dist/index.js",
